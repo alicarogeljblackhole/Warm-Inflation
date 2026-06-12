@@ -38,3 +38,7 @@ Full code is described, line by line, in Appendix A of A. Rogelj' PhD thesis: $\
 
 
 For feedback, questions, requests, please email: ``alica.rogelj@unibe.ch``.
+
+
+**DISCLAIMER**: 
+late time evolution is not optimal in the currently provided notebook. A more general and robust version, together with more examples, will be shared shortly.
