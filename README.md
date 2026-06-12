@@ -41,4 +41,4 @@ For feedback, questions, requests, please email: ``alica.rogelj@unibe.ch``.
 
 
 **DISCLAIMER**: 
-late time evolution is not optimal in the currently provided notebook. A more general and robust version, together with more examples, will be shared shortly.
+late time evolution is not optimal for potentials leading to an early period of matter domination in the currently provided notebook. A more general and robust version, together with more examples, will be shared shortly.
