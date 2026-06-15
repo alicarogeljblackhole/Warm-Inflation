@@ -3,7 +3,7 @@ Mathematica .nb simulating warm inflation/smooth reheating dynamics. Result: ful
 
 
 
-Implements gauge-invariant evolution equations describing smooth reheating, derived in 2407.17074, with noise treatment as derived in 2507.12849. 
+Implements gauge-invariant evolution equations describing smooth reheating, derived in [2407.17074](https://doi.org/10.1088/1475-7516/2024/10/040), with noise treatment as derived in [2507.12849](https://doi.org/10.1088/1475-7516/2025/12/058). 
 
 
 Properties of equations/solutions:
