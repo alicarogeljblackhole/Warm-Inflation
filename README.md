@@ -31,7 +31,7 @@ Outputs:
 - .pdf file with time evolution of power spectra.
 
 
-In ``WarmInflation_main.nb``, modify section ``Model-dependent inputs``. Then run the entire notebook. See selected results by opening the section ``Results`` $\rightarrow$ ``see results``. The notebook is by default set up to compute results for $\textit{Warm inflation with the Standard Model}$ proposal introduced in 2503.18829.
+In ``Warm_Inflation_main.nb``, modify section ``Model-dependent inputs``. Then run the entire notebook. See selected results by opening the section ``Results`` $\rightarrow$ ``see results``. The notebook is by default set up to compute results for $\textit{Warm inflation with the Standard Model}$ proposal introduced in 2503.18829.
 
 
 Full code is described, line by line, in Appendix A of A. Rogelj' PhD thesis: $\text{Scalar perturbations in warm inflation and/or smooth reheating}$ (to be published in Sept 2026).
