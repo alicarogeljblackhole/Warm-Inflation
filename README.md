@@ -3,7 +3,7 @@ Mathematica .nb simulating warm inflation/smooth reheating dynamics. Result: ful
 
 
 
-Implements gauge-invariant evolution equations describing smooth reheating, derived in [2407.17074](https://doi.org/10.1088/1475-7516/2024/10/040), with noise treatment as derived in [2507.12849](https://doi.org/10.1088/1475-7516/2025/12/058). 
+Implements gauge-invariant evolution equations describing smooth reheating, derived in [2407.17074](https://doi.org/10.1088/1475-7516/2024/10/040), with noise treatment as derived in [2507.12849](https://doi.org/10.1088/1475-7516/2025/12/058). These theoretical foundations, as well as line-by-line description of the code, can be found in Appendix A of A. Rogelj' PhD thesis: $\text{Scalar perturbations in warm inflation and/or smooth reheating}$ [doi:10.48620/101166](https://doi.org/10.48620/101166).
 
 
 Properties of equations/solutions:
@@ -32,9 +32,6 @@ Outputs:
 
 
 In ``Warm_Inflation_main.nb``, modify section ``Model-dependent inputs``. Then run the entire notebook. See selected results by opening the section ``Results`` $\rightarrow$ ``see results``. The notebook is by default set up to compute results for $\textit{Warm inflation with the Standard Model}$ proposal introduced in 2503.18829.
-
-
-Full code is described, line by line, in Appendix A of A. Rogelj' PhD thesis: $\text{Scalar perturbations in warm inflation and/or smooth reheating}$ (to be published in Sept 2026).
 
 
 For feedback, questions, requests, please email: ``alica.rogelj@unibe.ch``.
