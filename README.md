@@ -6,7 +6,7 @@ Mathematica notebook simulating warm inflation/smooth reheating dynamics. Result
 The theoretical foundations, as well as line-by-line description of the code, can be found in A. Rogelj' PhD thesis [doi:10.48620/101166](https://doi.org/10.48620/101166). The derivation of gauge-invariant evolution equations describing smooth reheating was first presented in [2407.17074](https://doi.org/10.1088/1475-7516/2024/10/040), with noise treatment originally derived in [2507.12849](https://doi.org/10.1088/1475-7516/2025/12/058). 
 
 
-Properties of equations/solutions:
+**Properties of equations/solutions**:
 
 - fully gauge-invariant equations,
 - smooth interpolation between the initial quantum state and subsequent classical domains,
@@ -16,13 +16,13 @@ Properties of equations/solutions:
 - obtain fully numerical, quantum-statistical power spectrum average
 
 
-Input model parameters:
+**Input model parameters**:
 
 - dissipation coefficient $\Upsilon$, monomial inflaton potential $V$, radiation energy density $e_r$ and pressure $p_r$.
 
 
 
-Outputs: 
+**Outputs**: 
 
 - .wxf file with full time evolution of background quantities: $H$, $T$, $k/a$, $\Upsilon$, $e_r$, $p_r$, background energy density and pressure $\bar{e}$ and $\bar{p}$, $V$, background inflaton field $\bar{\varphi}$, $\dot{\bar{\varphi}}$, $\dot{T}$, $\dot{H}$,
 - .wxf file with full time evolution of power spectrum of inflaton and plasma curvature perturbations: $\mathcal{R}_\varphi$, $\mathcal{R}_v$, $\mathcal{R}_T$,
@@ -31,11 +31,11 @@ Outputs:
 - .pdf file with time evolution of power spectra.
 
 
-Quick instructions:
+**Quick instructions**:
 
 In ``Warm_Inflation_main.nb``, modify section ``Model-dependent inputs``. Then run the entire notebook. See selected results by opening the section ``Results`` $\rightarrow$ ``see results``. See Appendix A of [doi:10.48620/101166](https://doi.org/10.48620/101166) for more details. The notebook is by default set up to compute results for ``Warm inflation with the Standard Model'' proposal introduced in 2503.18829. 
 
-For convenience, we provide explicit example notebooks obtained for various inflaton potentials and friction coefficients:
+For convenience, we provide explicit **example notebooks** obtained for various inflaton potentials and friction coefficients:
 
 - Warm_Inflation_A: quartic potential, SM friction coefficient
   
