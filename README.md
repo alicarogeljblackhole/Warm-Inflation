@@ -47,7 +47,7 @@ $\\\\ V=\frac{m^2}{2} \varphi^2,\ \Upsilon=\frac{T^2}{2f_a^2}\left(\frac{1}{\alp
    
 $\\\\ V=m^2 f_a^2 \left(1-\cos{\frac{\varphi}{f_a}} \right),\ \Upsilon=\frac{\kappa_T(\pi T)^3+\kappa_m m^3}{(4\pi)^3 f^2_a}$
 
-Notebooks can of course be modified to explore parameter space, test new models, etc. Main nb is being continuously optimized (such that it works faster for more models). More nb examples shall be provided in due course. 
+Notebooks can of course be modified to explore parameter space, test new models, etc. Main nb is being continuously optimized (such that it works faster for more models). New main nb with faster treatment of inflaton oscillations during early matter domination (significantly reducing computing time) will be uploaded shortly. More nb examples shall be provided in due course (feel free to send me your favorite model). 
 
 
 **NOTE**: 
