@@ -37,5 +37,5 @@ In ``Warm_Inflation_main.nb``, modify section ``Model-dependent inputs``. Then r
 For feedback, questions, requests, please email: ``alica.rogelj@unibe.ch``.
 
 
-**DISCLAIMER**: 
-late time evolution is not optimal for potentials leading to an early period of matter domination in the currently provided notebook. A more general and robust version, together with more examples, will be shared shortly.
+**NOTE**: 
+Main nb is being continuously optimized (such that it works faster for more models). More nb examples shall be provided in due course. If you have suggestions for improvement, any questions, if you want help optimizing the code for your particular model, or anything else, please send me a quick email: alica.rogelj@gmail.com. Many thanks for your inputs!
