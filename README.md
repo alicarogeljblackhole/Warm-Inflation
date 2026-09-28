@@ -34,8 +34,8 @@ Outputs:
 In ``Warm_Inflation_main.nb``, modify section ``Model-dependent inputs``. Then run the entire notebook. See selected results by opening the section ``Results`` $\rightarrow$ ``see results``. The notebook is by default set up to compute results for $\textit{Warm inflation with the Standard Model}$ proposal introduced in 2503.18829.
 
 
-For feedback, questions, requests, please email: ``alica.rogelj@unibe.ch``.
-
-
 **NOTE**: 
-Main nb is being continuously optimized (such that it works faster for more models). More nb examples shall be provided in due course. If you have suggestions for improvement, any questions, if you want help optimizing the code for your particular model, or anything else, please send me a quick email: alica.rogelj@gmail.com. Many thanks for your inputs!
+Main nb is being continuously optimized (such that it works faster for more models). More nb examples shall be provided in due course. 
+
+
+For feedback, questions, requests, please do not hesitate to email: ``alica.rogelj@unibe.ch``. Many thanks for your inputs!
