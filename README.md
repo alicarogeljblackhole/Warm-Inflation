@@ -1,9 +1,9 @@
 # Warm-Inflation
-Mathematica .nb simulating warm inflation/smooth reheating dynamics. Result: fully numerical power spectrum, spectral tilt, tensor-to-scalar ratio.
+Mathematica notebook simulating warm inflation/smooth reheating dynamics. Result: fully numerical power spectrum, spectral tilt, tensor-to-scalar ratio.
 
 
 
-Implements gauge-invariant evolution equations describing smooth reheating, derived in [2407.17074](https://doi.org/10.1088/1475-7516/2024/10/040), with noise treatment as derived in [2507.12849](https://doi.org/10.1088/1475-7516/2025/12/058). These theoretical foundations, as well as line-by-line description of the code, can be found in Appendix A of A. Rogelj' PhD thesis: $\text{Scalar perturbations in warm inflation and/or smooth reheating}$ [doi:10.48620/101166](https://doi.org/10.48620/101166).
+The theoretical foundations, as well as line-by-line description of the code, can be found in A. Rogelj' PhD thesis [doi:10.48620/101166](https://doi.org/10.48620/101166). The derivation of gauge-invariant evolution equations describing smooth reheating was first presented in [2407.17074](https://doi.org/10.1088/1475-7516/2024/10/040), with noise treatment originally derived in [2507.12849](https://doi.org/10.1088/1475-7516/2025/12/058). 
 
 
 Properties of equations/solutions:
@@ -31,11 +31,16 @@ Outputs:
 - .pdf file with time evolution of power spectra.
 
 
-In ``Warm_Inflation_main.nb``, modify section ``Model-dependent inputs``. Then run the entire notebook. See selected results by opening the section ``Results`` $\rightarrow$ ``see results``. The notebook is by default set up to compute results for $\textit{Warm inflation with the Standard Model}$ proposal introduced in 2503.18829.
+In ``Warm_Inflation_main.nb``, modify section ``Model-dependent inputs``. Then run the entire notebook. See selected results by opening the section ``Results`` $\rightarrow$ ``see results``. The notebook is by default set up to compute results for $\textit{Warm inflation with the Standard Model}$ proposal introduced in 2503.18829. 
+
+For convenience, we provide explicit example notebooks obtained for various inflaton potentials and friction coefficients:
+
+- Warm_Inflation_A: quartic potential, SM friction coefficient ($V=\lambda \varphi^4$, $\Upsilon=\frac{T^2}{2\,f_a^2}\left(\frac{1}{\alpha^5\, N_c^5\, T}+\frac{2N_f}{N_c\, H}\right)^{-1}$)
+- Warm_Inflation_B: quadratic potential, SM friction coefficient ($V=m^2 \varphi^2/2$, $\Upsilon=\frac{T^2}{2\,f_a^2}\left(\frac{1}{\alpha^5\, N_c^5\, T}+\frac{2N_f}{N_c\, H}\right)^{-1}$)
+- Warm_Inflation_C: cosine potential, const.+T^3 friction coefficient ($V=m^2 f_a^2 \left(1-\cos{\frac{\varphi}{f_a}} \right)$, $\Upsilon=\frac{\kappa_T(\pi T)^3+\kappa_m m^3}{(4\pi)^3 f_a^2}$)
+
+Notebooks can of course be modified to explore parameter space, test new models, etc. Main nb is being continuously optimized (such that it works faster for more models). More nb examples shall be provided in due course. 
 
 
 **NOTE**: 
-Main nb is being continuously optimized (such that it works faster for more models). More nb examples shall be provided in due course. 
-
-
-For feedback, questions, requests, please do not hesitate to email: ``alica.rogelj@unibe.ch``. Many thanks for your inputs!
+For feedback, questions, requests, please do not hesitate to email: ``alica.rogelj@gmail.com``. Many thanks for your inputs!
